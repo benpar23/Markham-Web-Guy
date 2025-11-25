@@ -42,6 +42,10 @@ a {
   color: white;
 }
 
+a:hover {
+  background-color: black;
+}
+
 img,
 picture,
 svg {
