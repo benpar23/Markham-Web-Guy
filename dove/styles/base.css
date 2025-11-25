@@ -28,6 +28,14 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  padding: 1rem;
+}
+
+p {
+  padding: 1rem;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -55,6 +63,7 @@ picture,
 svg {
   max-width: 100%;
   display: block;
+  padding: 1rem;
 }
 
 body {
