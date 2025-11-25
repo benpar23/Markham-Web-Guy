@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0 auto;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 500;
+  font-style: normal;
+  --bold-text: 550;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-image: linear-gradient(to bottom right, black, purple);
+  border-radius: 0 0 30px 30px;
+  color: white;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  font-weight: var(--bold-text);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  width: 80%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
