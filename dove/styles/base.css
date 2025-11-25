@@ -141,9 +141,6 @@ footer {
       border: 0;
       background: none;
       color: white;
-      position: absolute;
-      top: 1.5rem;
-      right: 1rem;
       z-index: 1000;
   }
 
