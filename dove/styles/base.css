@@ -75,3 +75,16 @@ footer {
   justify-content: center;
   text-align: center;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-on-load {
+  animation: fadeIn 1.5s ease-out forwards;
+}
