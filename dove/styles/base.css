@@ -159,6 +159,7 @@ footer {
     width: 95%;
     border: 1px red solid;
     flex-direction: column;
+    height: auto;
   }
 
   section {
