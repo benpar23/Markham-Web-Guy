@@ -157,6 +157,7 @@ footer {
 
   main {
     width: 95%;
+    border: 1px red solid;
   }
 
   section {
