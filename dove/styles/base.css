@@ -159,6 +159,11 @@ footer {
     width: 95%;
   }
 
+  section {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  } 
+
 
 
 
