@@ -101,6 +101,7 @@ footer {
     padding-bottom: 0.5rem;
     position: relative;
     margin-bottom: 1rem;
+    z-index: 100;
   }
 
   nav a {
