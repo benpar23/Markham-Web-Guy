@@ -18,7 +18,6 @@ header {
   justify-content: space-between;
   padding: 1rem;
   background-image: linear-gradient(to bottom right, black, purple);
-  border-radius: 0 0 30px 30px;
   color: white;
   align-items: center;
 }
