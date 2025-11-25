@@ -125,7 +125,7 @@ footer {
   }
 
   nav {
-      background-color: var(--primary-color);
+      background-color: black;
       display: flex;
       flex-direction: column;
       position: absolute;
