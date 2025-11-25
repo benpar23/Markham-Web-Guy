@@ -104,7 +104,7 @@ footer {
   }
 
   nav a {
-    color: var(--primary-font-color);
+    color: white;
     display: none;
     text-decoration: none;
     margin: 0.5rem 0;
