@@ -6,7 +6,11 @@
 
 * {
   margin: 0 auto;
-  font-family: "Cinzel Decorative", serif;
+}
+
+:root {
+  --primary-font: "Cinzel Decorative", serif;
+  --secondary-font: "Almendra", serif;
   font-weight: 500;
   font-style: normal;
   --bold-text: 550;
@@ -26,14 +30,17 @@ h1 {
   display: flex;
   font-weight: var(--bold-text);
   font-size: 2rem;
+  font-family: var(--primary-font)
 }
 
 h2 {
   padding: 1rem;
+  font-family: var(--secondary-font);
 }
 
 p {
   padding: 1rem;
+  font-family: var(--secondary-font);
 }
 
 nav {
