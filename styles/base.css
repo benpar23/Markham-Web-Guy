@@ -20,11 +20,51 @@ header {
   flex-direction: row;
   background-color: var(--primary-color);
   color: var(--c-frosted-blue);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+  z-index: 100;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 nav {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+nav a {
+  color: white;
+  display: none;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.active {
+  color: yellow;
+}
+
+nav a:hover {
+  text-decoration: underline 0.5px;
+}
+
+.open a {
+  display: block;
 }
 
 a {
@@ -32,19 +72,42 @@ a {
   color: var(--c-lavender-blush);
 }
 
-body {
-    background-color: var(--c-lavender-blush);
+#menu {
+  font-size: 2rem;
+  border: 0;
+  background: none;
+  color: white;
+  z-index: 1000;
+  display: block;
 }
 
-h1,h2,p,section {
-    padding: 1rem;
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "X";
+}
+
+body {
+  background-color: var(--c-lavender-blush);
+}
+
+h1,
+h2,
+h3,
+p,
+section,
+img,
+button {
+  padding: 1rem;
 }
 
 footer {
-    background-color: var(--primary-color);
-    color: var(--c-lavender-blush);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  background-color: var(--primary-color);
+  color: var(--c-lavender-blush);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
