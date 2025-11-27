@@ -3,8 +3,6 @@
   box-sizing: border-box;
 }
 
-/* Mobile View */
-
 :root {
   --c-black: hsl(0, 0%, 0%);
   --c-frosted-blue: hsl(187, 61%, 74%);
@@ -12,4 +10,41 @@
   --c-lavender-blush: hsl(333, 21%, 92%);
   --c-grey: hsl(0, 0%, 49%);
   --primary-color: var(--c-black);
+  font-family: "Tiktok Sans", sans-serif;
+}
+
+/* Mobile View */
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-color);
+  color: var(--c-frosted-blue);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-lavender-blush);
+}
+
+body {
+    background-color: var(--c-lavender-blush);
+}
+
+h1,h2,p,section {
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--c-lavender-blush);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
